@@ -1,0 +1,19 @@
+{
+  "_comment": "Legacy keyword-mode shortcuts. Each key is a 'label', value is a list of search terms. Use --label <key> when running discover.py in keyword mode without specifying --keywords explicitly. Replace with your own labels.",
+  "weight-loss-demo": [
+    "lose 30 pounds",
+    "GLP-1",
+    "semaglutide",
+    "stubborn belly fat",
+    "menopause weight loss"
+  ],
+  "ai-coaching-demo": [
+    "AI agency course",
+    "AI bootcamp",
+    "AI accelerator",
+    "Claude Code training",
+    "build AI agency",
+    "AI consultant course",
+    "vibe coding course"
+  ]
+}

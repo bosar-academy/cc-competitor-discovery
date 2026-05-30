@@ -1,0 +1,88 @@
+{
+  "_schema": "Per-segment seed lists. Each segment has: seeds (known competitor page_ids), search_terms (for discovering NEW competitors by brand name), deny_domains (filter false-positive matches whose ad copy contains search terms but who aren't real competitors).",
+  "_how_to_add": "Copy one of the example segments below, rename it to your niche, and replace the data with your real competitors. Find Facebook Page IDs at facebook.com/ads/library (search the brand, open advertiser profile, copy the view_all_page_id from the URL).",
+  "weight-loss-demo": {
+    "description": "EXAMPLE SEGMENT — Weight loss programs, coaches, and telehealth offers. Public-brand seeds for illustration. Replace with your own niche.",
+    "seeds": [
+      {
+        "company": "Noom",
+        "founder": "Saeju Jeong / Artem Petakov",
+        "domain": "noom.com",
+        "page_id": "102201386497398",
+        "offer_type": "App subscription weight loss",
+        "icp": "General weight loss seekers",
+        "threat": "HIGH",
+        "notes": "Mega advertiser, psychology-based weight loss app"
+      }
+    ],
+    "search_terms": [
+      "lose weight",
+      "weight loss program",
+      "lose 30 pounds",
+      "GLP-1",
+      "semaglutide",
+      "stubborn belly fat",
+      "menopause weight loss",
+      "weight loss coach",
+      "lose belly fat",
+      "fat loss for women"
+    ],
+    "deny_domains": [
+      "wsj.com",
+      "nyt.com",
+      "cnn.com",
+      "forbes.com",
+      "mit.edu",
+      "harvard.edu",
+      "gov",
+      "amazon.com",
+      "walmart.com",
+      "target.com",
+      "instagram.com",
+      "youtube.com",
+      "tiktok.com"
+    ],
+    "deny_page_names": [
+      "Facebook",
+      "Instagram",
+      "Meta",
+      "YouTube",
+      "TikTok"
+    ]
+  },
+  "ai-coaching-demo": {
+    "description": "EXAMPLE SEGMENT — AI coaching / cohort / accelerator programs. Replace with your own real seeds and search terms.",
+    "seeds": [],
+    "search_terms": [
+      "AI bootcamp",
+      "AI cohort",
+      "AI accelerator",
+      "Claude Code training",
+      "AI agency course",
+      "build AI agency",
+      "AI consultant course",
+      "AI automation course",
+      "vibe coding course"
+    ],
+    "deny_domains": [
+      "mckinsey.com",
+      "mit.edu",
+      "harvard.edu",
+      "berkeley.edu",
+      "google.com",
+      "amazon.com",
+      "salesforce.com",
+      "databricks.com",
+      "workday.com",
+      "instagram.com"
+    ],
+    "deny_page_names": [
+      "Microsoft in Business",
+      "MIT Professional Education",
+      "Harvard Business Review",
+      "McKinsey & Company",
+      "Workday",
+      "Databricks"
+    ]
+  }
+}
